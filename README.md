@@ -1,6 +1,9 @@
-# Walnut App Template
+# Ultimatum Game
 
-This is a simple app template for [Walnut](https://github.com/TheCherno/Walnut) - unlike the example within the Walnut repository, this keeps Walnut as an external submodule and is much more sensible for actually building applications. See the [Walnut](https://github.com/TheCherno/Walnut) repository for more details.
+This is a project for the subject *Computational Modeling of Complex Systems*. 
+It consists of a visualization of the Ultimatum Game using [Walnut](https://github.com/TheCherno/Walnut).
+
 
 ## Getting Started
-Once you've cloned, you can customize the `premake5.lua` and `WalnutApp/premake5.lua` files to your liking (eg. change the name from "WalnutApp" to something else).  Once you're happy, run `scripts/Setup.bat` to generate Visual Studio 2022 solution/project files. Your app is located in the `WalnutApp/` directory, which some basic example code to get you going in `WalnutApp/src/WalnutApp.cpp`. I recommend modifying that WalnutApp project to create your own application, as everything should be setup and ready to go.
+Once you've cloned, open the visual studio solution file. The app related files are located in the `UltimatumGame\` directory.
+For best performance, it is advised to compile and run the **Dist** profile of the project.
